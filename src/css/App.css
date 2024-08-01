@@ -1,0 +1,89 @@
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.todo-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+
+.todo-create-button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: goldenrod;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.todo-icons {
+  font-size: 30px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.todo-icons2:hover {
+  scale: 1.2;
+  color: goldenrod;
+}
+
+.main {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  padding: 3px 6px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 6px 8px lightgray;
+  background-image: linear-gradient(
+    to right,
+    goldenrod,
+    rgba(255, 217, 0, 0.891),
+    rgb(237, 237, 237)
+  );
+  margin-top: 15px;
+}
+
+.new-todo {
+  background-image: linear-gradient(
+    to right,
+    goldenrod,
+    rgba(255, 217, 0, 0.891),
+    rgb(240, 227, 153)
+  );
+  width: 380px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
